@@ -18,6 +18,7 @@ class CashRegister
       puts "After the discount, the total comes to $#{@total.to_i}."
     else
       puts "There is no discount to apply."
+    end
   end 
   
   def void_last_transaction
